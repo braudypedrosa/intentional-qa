@@ -4,6 +4,8 @@ Review the rendered interface for consistency and comprehension while keeping su
 
 ## Visual checks
 
+Capture representative desktop and mobile screenshots for every unique template in scope. Capture focused evidence for each reported visual defect or concern and for any dynamic state being judged, including hover, focus, open, selected, disabled, loading, empty, error, and success states when reachable.
+
 - Header/footer consistency, hierarchy, spacing rhythm, alignment, typography, line length, component states, imagery, crops, icons, controls, dialogs, tables, cards, empty states, and error states.
 - Consistency across templates for buttons, labels, colors, focus/hover/disabled states, breadcrumbs, notices, and calls to action.
 - Readability, scanning order, content density, misleading affordances, competing actions, and visually hidden essential information.
@@ -17,4 +19,4 @@ Classify overlap, clipping, missing information, unreadable contrast, and unusab
 
 ## Output
 
-Group template-wide issues by root cause. Include rendered evidence and page/state. Keep editorial recommendations and visual concerns outside confirmed functional totals.
+Group template-wide issues by root cause. Include the exact rendered screenshot, URL, viewport, and page/state. Keep editorial recommendations and visual concerns outside confirmed functional totals.

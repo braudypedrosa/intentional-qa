@@ -16,7 +16,8 @@ For each journey record the start state, actor/role, preconditions, steps, expec
 - Observe URL/history, visible state, console errors, and relevant request failures.
 - Verify actual end state, not only a success toast. When downstream state requires unauthorized access, mark it Blocked.
 - Test role/permission boundaries only with accounts provided for those roles.
+- Capture screenshots at visually meaningful checkpoints and at the final visible outcome. Always capture a focused screenshot of a visible journey failure, incorrect destination, missing state, obstructed control, or misleading success/error message.
 
 ## Output
 
-Produce a journey matrix with actor, environment, path, result, evidence, and gaps. Findings should identify the earliest reliable failure point and downstream user impact rather than listing every later symptom.
+Produce a journey matrix with actor, environment, path, result, evidence, screenshot paths where visual confirmation applies, and gaps. Findings should identify the earliest reliable failure point and downstream user impact rather than listing every later symptom.

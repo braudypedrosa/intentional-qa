@@ -34,6 +34,7 @@ Before testing, read [shared-rules.md](references/shared-rules.md). Preserve the
 - Use only provided WordPress authentication; try WP-CLI first for `.local` sites and ManageWP for Sessionwise.
 - Do not create leads, accounts, orders, payments, bookings, emails, deletions, or other side effects without explicit authorization.
 - Collect observable evidence and manually verify automated findings before classifying them as defects.
+- Capture screenshots for every conclusion that depends on visual confirmation, using the exact page, state, and viewport being assessed.
 - Never convert Blocked, Not run, sampled, or inferred results into Pass.
 - Keep functional failures, visual concerns, and unconfirmed observations distinct.
 

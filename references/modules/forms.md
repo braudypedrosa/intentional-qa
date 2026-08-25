@@ -13,6 +13,7 @@ Record each unique form, its page, purpose, fields, submit action, authenticatio
 - Check inline error placement, message clarity, association with the field, error recovery, preservation of entered data, loading state, duplicate-click protection, and responsive behavior.
 - Inspect console/network behavior during validation without bypassing client rules.
 - Verify that hidden required fields, disabled controls, CAPTCHA, consent, and conditional fields behave coherently.
+- Capture the initial form state and every visually assessed validation, error, disabled, loading, or success state. Use conspicuous non-sensitive test values and ensure the screenshot shows the affected field and message together when practical.
 
 Do not submit a live lead, email, account, order, payment, booking, deletion, upload, or webhook-triggering action without explicit authorization.
 
@@ -24,4 +25,4 @@ CAPTCHA, mail delivery, payment, and third-party dashboards are Blocked when the
 
 ## Output
 
-Use one row per form and state whether discovery, validation, accessibility, responsive behavior, submission, downstream delivery, and cleanup were Pass, Fail, Blocked, or Not run. Confirmed defects need exact field/state and reproduction steps.
+Use one row per form and state whether discovery, validation, accessibility, responsive behavior, submission, downstream delivery, and cleanup were Pass, Fail, Blocked, or Not run. Confirmed defects need exact field/state, reproduction steps, and screenshot paths for visible behavior.

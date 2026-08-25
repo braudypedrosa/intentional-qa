@@ -15,6 +15,8 @@ Use a real viewport resize. If unavailable, a temporary same-origin iframe harne
 
 At each tested page and width, collect viewport width, document `clientWidth`, document `scrollWidth`, broken images, clipped text candidates, visible control sizes, navigation/footer presence, and console errors.
 
+Capture a viewport screenshot for every required template and width after the page has settled and lazy content in that state has loaded. Add focused screenshots for confirmed overflow, clipping, overlap, incorrect reflow, unusable controls, or breakpoint-transition failures. A full-page capture may supplement, but not replace, the focused evidence.
+
 Useful page-context probe:
 
 ```js
@@ -39,4 +41,4 @@ A site is not “fully responsive” based only on one desktop and one mobile sc
 
 ## Output
 
-Report failures by page and exact width, concerns separately, confirmed passes, interaction/console results, coverage totals such as “12 pages x 4 widths = 48 renders,” and any untested widths or templates.
+Report failures by page and exact width, concerns separately, confirmed passes, interaction/console results, screenshot paths, coverage totals such as “12 pages x 4 widths = 48 renders,” and any untested widths, templates, or missing captures.

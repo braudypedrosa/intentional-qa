@@ -8,6 +8,7 @@ Keep the report readable by a CEO, product owner, and developer. Use a Markdown 
 - Release recommendation: Go, Conditional go, or No-go, with one-sentence rationale.
 - Scope and environment: target, public/authenticated coverage, run mode, date, and important constraints.
 - Coverage: discovered/tested URLs, templates, viewports, journeys, forms, and any browser/device limits.
+- Visual evidence: screenshot count, covered templates/viewports/states, storage location, and any missing captures.
 - Finding totals: Critical, High, Medium, Low, Concern, and Blocked.
 - Modules run: list each Intentional QA subskill and its Pass, Fail, Blocked, or Not run status.
 
@@ -38,11 +39,14 @@ Give each confirmed issue a stable ID such as `QA-001`.
 - Expected:
 - Actual:
 - Evidence:
+- Screenshot(s):
 - Frequency/scope:
 - Severity rationale:
 - Suggested next action:
 
 Keep proposed fixes tentative unless the root cause was verified. Do not include sensitive credentials, tokens, or personal data in evidence.
+
+Link each visually confirmed finding to the exact screenshot that shows it. For non-visual findings, use `Not required` rather than creating decorative evidence. If visual confirmation was required but no usable screenshot was captured, the finding or pass cannot be reported as fully verified; label the evidence gap explicitly.
 
 ## Concerns and observations
 
