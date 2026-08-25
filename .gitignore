@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage/
+output/
+artifacts/
+qa-results/
+*.log
+*.tmp

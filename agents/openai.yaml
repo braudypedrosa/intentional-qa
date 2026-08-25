@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intentional QA"
+  short_description: "Self-contained modular website QA suite"
+  default_prompt: "Use $intentional-qa Full QA to audit this website and produce an evidence-backed release report."
